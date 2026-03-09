@@ -1,0 +1,93 @@
+h2 {
+  font-size: 20px;
+  padding-right: 0.5em;
+  color: rgb(196, 220, 255);
+}
+
+img {
+  width: 100px;
+  margin: 0 auto;
+}
+
+.logo-box {
+  width: 100px;
+  height: 100px;
+
+  background-color: rgb(196, 220, 255);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  box-shadow: 0 1px 1px rgba(200, 200, 200, 0.1);
+
+  padding: 0.5em;
+  margin-top: 0.5em;
+}
+
+.tech-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+
+  width: 200px;
+
+  background-color: rgba(151, 151, 151, 0.169);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  box-shadow: 0 1px 1px rgba(200, 200, 200, 0.1);
+
+  margin-top: 0.5em;
+}
+
+.html-icon {
+  color: rgb(227, 76, 38);
+}
+
+.css-icon {
+  color: rgb(103, 44, 202);
+}
+
+.js-icon {
+  color: rgb(220, 201, 73);
+}
+
+.react-icon {
+  color: rgb(0, 216, 255);
+}
+
+.hook-box {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background-color: rgba(151, 151, 151, 0.169);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  box-shadow: 0 1px 1px rgba(200, 200, 200, 0.1);
+
+  padding: 0.5em;
+  margin-top: 0.5em;
+}
+
+.contact-box {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+
+  background-color: rgb(196, 220, 255);
+  color: black;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  box-shadow: 0 1px 1px rgba(200, 200, 200, 0.1);
+
+  padding: 0.5em 1em;
+  margin-top: 0.5em;
+}
+
+.contact-box a {
+  color: black;
+}
+
+.contact-stack i {
+  margin-top: 1em;
+  padding-right: 0.5em;
+}
