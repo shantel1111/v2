@@ -1,6 +1,5 @@
 h2 {
   font-size: 20px;
-  padding-right: 0.5em;
   color: rgb(196, 220, 255);
   text-align: left;
 }
@@ -22,21 +21,23 @@ img {
 }
 
 .grid-item {
-  background-color: rgba(151, 151, 151, 0.169);
+  background-color: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.1);
   border-radius: 15px;
   box-shadow: 1px 1px 1px rgba(200, 200, 200, 0.1);
-  padding: 0 0.5em;
+  padding: 0.5em;
+  transition: transform ease-in-out 0.5s;
 }
 
-.grid-tem:hover {
-  transform: scale(1);
+.grid-item:hover {
+  transform: scale(1.01);
 }
 
 .bio-box p {
   text-align: left;
   line-height: 1.6;
-  text-wrap: balance;
+  font-size: 1em;
 }
 
 .bold-style {
@@ -77,6 +78,26 @@ img {
 
 .figma-icon {
   color: rgb(0, 207, 131);
+}
+
+.projects-container div {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5em;
+}
+
+.project-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-info p {
+  margin-top: 5px;
+}
+
+.project-btn a {
+  color: rgb(196, 220, 255);
+  padding-right: 0.5em;
 }
 
 .contact-box {

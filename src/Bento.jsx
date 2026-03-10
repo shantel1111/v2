@@ -10,8 +10,8 @@ export default function Bento() {
             Hi, I’m <span className="bold-style">Shantel</span> — a
             <span className="bold-style"> Frontend Developer</span> who loves
             turning <span className="italic-style">technical logic</span> into
-            vibrant, storytelling driven interfaces. I enjoy building{" "}
-            <span className="bold-style">ethical digital spaces</span> that
+            vibrant, storytelling driven interfaces. I enjoy building
+            <span className="bold-style"> ethical digital spaces</span> that
             connect people through{" "}
             <span className="bold-style">high-end design.</span>
           </p>
@@ -60,14 +60,77 @@ export default function Bento() {
         <div className="grid-item" style={{ gridArea: "box-5" }}>
           <h3>projects.</h3>
           <div className="projects-container">
-            <div></div>
-            <div></div>
-            <div></div>
+            <div className="project-main">
+              <div className="project-info">
+                <h4>QUIZZICAL</h4>
+                <p>HTML5, CSS3, JS, ReactJS</p>
+              </div>
+
+              <div className="project-btn">
+                <a href="https://github.com/shantel1111/quizzical">
+                  <i class="fa-solid fa-code"></i>
+                </a>
+
+                <a href="https://quizzical-0d8a04.netlify.app/">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+
+            <div className="project-main">
+              <div className="project-info">
+                <h4>FILM FLOW</h4>
+                <p>HTML5, CSS3, JS, ReactJS</p>
+              </div>
+
+              <div className="project-btn">
+                <a href="https://github.com/shantel1111/movie-watchlist">
+                  <i class="fa-solid fa-code"></i>
+                </a>
+
+                <a href="https://moviewatchlist-5bc64a.netlify.app/">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+
+            <div className="project-main">
+              <div className="project-info">
+                <h4>MOTIVE</h4>
+                <p>HTML5, CSS3, JS, ReactJS</p>
+              </div>
+
+              <div className="project-btn">
+                <a href="https://github.com/shantel1111/quizzical">
+                  <i class="fa-solid fa-code"></i>
+                </a>
+
+                <a href="https://quizzical-0d8a04.netlify.app/">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
+
+            <div className="project-main">
+              <div className="project-info">
+                <h4>PSWRD</h4>
+                <p>HTML5, CSS3, JS</p>
+              </div>
+
+              <div className="project-btn">
+                <a href="https://github.com/shantel1111/password-generator">
+                  <i class="fa-solid fa-code"></i>
+                </a>
+
+                <a href="https://passwordgenerator-73787e.netlify.app/">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
 
         <div className="grid-item contact-box" style={{ gridArea: "box-6" }}>
-          {/* <h3>technical skills.</h3> */}
           <h3>connect.</h3>
           <div className="contact-container">
             <img src={logo} />

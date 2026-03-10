@@ -1,15 +1,12 @@
 import "./styles/Header.css";
+import myresume from "./resume/ARTCH_SHANTEL.pdf";
 
 export default function Header() {
   return (
     <header>
       <div>
         <i class="fa-solid fa-moon toggle-theme"></i>
-        <a
-          href="./resume/ARTCH_SHANTEL.pdf"
-          aria-label="download resume"
-          download
-        >
+        <a href={myresume} aria-label="download resume" download>
           <i class="fa-solid fa-file" nj></i>
         </a>
       </div>
