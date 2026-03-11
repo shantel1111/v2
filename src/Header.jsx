@@ -1,5 +1,5 @@
 import "./styles/Header.css";
-import myresume from "./resume/ARTCH_SHANTEL.pdf";
+import myresume from "./assets/resume/ARTCH_SHANTEL.pdf";
 
 export default function Header() {
   return (
