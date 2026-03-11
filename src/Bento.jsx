@@ -1,5 +1,6 @@
 import "./styles/Bento.css";
 import logo from "./assets/logo.png";
+import quiz from "./assets/quizzical.png";
 
 export default function Bento() {
   return (
@@ -60,7 +61,17 @@ export default function Bento() {
         <div className="grid-item" style={{ gridArea: "box-5" }}>
           <h3>projects.</h3>
           <div className="projects-container">
-            <div className="project-main">
+            <div className="projects-preview">
+              <div className="project-img">
+                <img src={quiz} />
+              </div>
+              <div className="project-tabs">
+                <button className="project-btn">01. QUIZ</button>
+                <button className="project-btn">02. MOVIE</button>
+                <button className="project-btn">03. PSWRD</button>
+              </div>
+            </div>
+            {/* <div className="project-main">
               <div className="project-info">
                 <h4>QUIZZICAL</h4>
                 <p>HTML5, CSS3, JS, ReactJS</p>
@@ -126,7 +137,7 @@ export default function Bento() {
                   <i class="fa-solid fa-arrow-up-right-from-square"></i>
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
 

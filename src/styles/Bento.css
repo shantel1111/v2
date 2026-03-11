@@ -80,6 +80,45 @@ img {
   color: rgb(0, 207, 131);
 }
 
+.projects-preview {
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.project-img {
+  /* border: 1px solid purple; */
+  /* width: 100%;
+  height: 100%; */
+}
+
+.project-img img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.project-tabs {
+  height: 20px;
+  /* border: 1px solid blue; */
+}
+
+.project-btn {
+  font-family: "Inter", sans-serif;
+  /* width: 50px;
+  height: 25px; */
+  border-radius: 10px;
+  padding: 1em;
+  margin-left: 0.5em;
+  border: unset;
+  background-color: rgb(196, 220, 255);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .projects-container div {
   display: flex;
   justify-content: space-between;
