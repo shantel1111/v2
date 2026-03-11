@@ -18,12 +18,12 @@ export default function Bento() {
         <HookCard />
       </Card>
 
-      <Card gridArea="box-3" className="tech-card">
-        <TechCard />
+      <Card gridArea="box-3" className="status-card">
+        <StatusCard />
       </Card>
 
-      <Card gridArea="box-4" className="status-card">
-        <StatusCard />
+      <Card gridArea="box-4" className="tech-card">
+        <TechCard />
       </Card>
 
       <Card gridArea="box-5" className="project-card">

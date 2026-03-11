@@ -14,9 +14,12 @@ export default function TechCard() {
         className="fa-brands fa-react fa-2xl react-icon"
         aria-label="react icon"
       ></i>
-      <i class="fa-brands fa-git-alt fa-2xl git-icon" aria-label="git icon"></i>
       <i
-        class="fa-brands fa-figma fa-2xl figma-icon"
+        className="fa-brands fa-git-alt fa-2xl git-icon"
+        aria-label="git icon"
+      ></i>
+      <i
+        className="fa-brands fa-figma fa-2xl figma-icon"
         aria-label="figma icon"
       ></i>
     </>
