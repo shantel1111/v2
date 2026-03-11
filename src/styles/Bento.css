@@ -49,10 +49,6 @@ img {
   font-style: italic;
 }
 
-.hook-card {
-  align-content: center;
-}
-
 .tech-card {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
@@ -88,7 +84,6 @@ img {
 }
 
 .projects-preview {
-  /* border: 1px solid red; */
   display: flex;
   flex-direction: column;
   justify-content: center;

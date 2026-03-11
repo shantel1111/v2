@@ -36,7 +36,3 @@ export default function Bento() {
     </main>
   );
 }
-
-{
-  /* <div className="grid-item hook-box" style={{ gridArea: "box-2" }}></div> */
-}
