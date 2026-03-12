@@ -12,7 +12,7 @@ export default function ContactCard() {
             <a href="mailto:artch.shantel@gmail.com">artch.shantel@gmail.com</a>
           </div>
 
-          <div>
+          <div className="contact-icons">
             <a
               className="icon"
               href="https://www.linkedin.com/in/shantel-artch-415106208?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app"
