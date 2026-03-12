@@ -5,7 +5,7 @@ export default function Header() {
   return (
     <header>
       <div>
-        <i className="fa-solid fa-moon toggle-theme"></i>
+        {/* <i className="fa-solid fa-moon toggle-theme"></i> */}
         <a href={myresume} aria-label="download resume" download>
           <i className="fa-solid fa-file" nj></i>
         </a>

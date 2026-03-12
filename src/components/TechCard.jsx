@@ -33,14 +33,14 @@ export default function TechCard() {
         </div>
         <div>
           <i
-            className="fa-brands fa-git-alt fa-2xl git-icon"
-            aria-label="git icon"
+            className="fa-brands fa-figma fa-2xl figma-icon"
+            aria-label="figma icon"
           ></i>
         </div>
         <div>
           <i
-            className="fa-brands fa-figma fa-2xl figma-icon"
-            aria-label="figma icon"
+            className="fa-brands fa-git-alt fa-2xl git-icon"
+            aria-label="git icon"
           ></i>
         </div>
       </div>
