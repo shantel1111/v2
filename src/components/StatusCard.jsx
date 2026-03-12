@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 const formatter = new Intl.DateTimeFormat("en-GB", {
   hour: "2-digit",
   minute: "2-digit",
-  second: "2-digit",
+  // second: "2-digit",
   hour12: true,
   timeZone: "Europe/Berlin",
 });
@@ -30,9 +30,11 @@ export default function StatusCard() {
 
       <div className="local-time">
         <span className="current-time">
-          {formatter.format(currentTime)} HAM{" "}
+          {formatter.format(currentTime)} HAM, DE{" "}
         </span>
       </div>
+
+      <p className="open-cta">OPEN FOR WORK</p>
     </>
   );
 }

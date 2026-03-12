@@ -28,6 +28,7 @@ img {
   box-shadow: 1px 1px 1px rgba(200, 200, 200, 0.1);
   padding: 0.5em;
   transition: transform ease-in-out 0.5s;
+  height: 100%;
 }
 
 .grid-item:hover {
@@ -50,10 +51,20 @@ img {
 }
 
 .tech-card {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.tech-card h3 {
+  align-self: center;
+}
+
+.tech-stack1,
+.tech-stack2 {
+  display: flex;
   align-items: center;
-  justify-items: center;
+  justify-content: space-around;
 }
 
 .html-icon {
@@ -79,14 +90,13 @@ img {
 .status-card {
   display: flex;
   flex-direction: column;
+  justify-content: space-evenly;
   align-items: center;
-  justify-content: center;
 }
 
 .status {
   display: flex;
   align-items: center;
-  justify-content: center;
 }
 
 .status-dot,
@@ -123,53 +133,39 @@ img {
   }
 }
 
-.local-time {
-  text-align: center;
-}
-
 .current-time {
   color: rgb(196, 220, 255);
-  font-size: 1.2em;
+  font-size: 1em;
   font-weight: 600;
-}
-
-.local-weather {
-  height: 100px;
-  margin-top: 1em;
-}
-
-.spinner {
-  border: 10px solid rgb(255, 255, 255);
-  border-top: 10px solid rgb(196, 220, 255);
-  border-radius: 50%;
-  width: 80px;
-  height: 80px;
-  animation: spin 2s linear infinite;
-}
-
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
 }
 
 .projects-preview {
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  align-items: start;
+  border: 1px solid blue;
 }
 
 .code-btn {
   color: rgb(196, 220, 255);
   cursor: pointer;
+  border: 1px solid blue;
 }
 
 .code-btn i {
   padding: 0 0.5em;
+}
+
+.open-cta {
+  color: rgb(0, 207, 131);
+  background-color: rgba(34, 197, 94, 0.1);
+  font-weight: 800;
+  padding: 0.5em;
+  border-radius: 15px;
+}
+
+.project-img {
+  height: 150px;
+  border: 1px solid blue;
 }
 
 .project-img img {
@@ -178,23 +174,23 @@ img {
 }
 
 .project-tabs {
-  height: 20px;
-  /* border: 1px solid blue; */
+  /* height: 20px; */
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: column;
 }
 
 .project-btn {
   font-family: "Inter", sans-serif;
   /* width: 50px;
   height: 25px; */
-  border-radius: 10px;
-  padding: 1em;
-  margin-left: 0.5em;
-  border: unset;
-  background-color: rgb(196, 220, 255);
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  padding: 0.5em;
+  border: 1px solid rgba(255, 255, 255, 0.1);
 
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  box-shadow: 1px 1px 1px rgba(200, 200, 200, 0.1);
+  background-color: rgb(196, 220, 255);
 }
 
 .projects-container div {
