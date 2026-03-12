@@ -21,20 +21,29 @@ export default function StatusCard() {
 
   return (
     <>
-      <div className="status">
-        <div className="status-dot">
-          <div className="status-dot-active"></div>
+      <div className="status-container">
+        <div className="status"></div>
+        <div className="time"></div>
+      </div>
+    </>
+  );
+}
+
+{
+  /* <div className="status">
+        <div>
+          <div className="status-dot">
+            <div className="status-dot-active"></div>
+          </div>
+          <p>currently coding.</p>
         </div>
-        <p>currently coding.</p>
+
+        <p className="open-cta">OPEN FOR WORK</p>
       </div>
 
       <div className="local-time">
         <span className="current-time">
           {formatter.format(currentTime)} HAM, DE{" "}
         </span>
-      </div>
-
-      <p className="open-cta">OPEN FOR WORK</p>
-    </>
-  );
+      </div> */
 }
