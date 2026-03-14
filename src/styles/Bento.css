@@ -232,8 +232,14 @@ img {
 }
 
 .project-imgs {
-  border: 1px solid red;
   width: 100%;
+  border: 1px solid red;
+
+  
+}
+
+.project-imgs img {
+  width: 100px;
 }
 
 .project-icons {

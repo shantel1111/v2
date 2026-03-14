@@ -13,7 +13,11 @@ export default function ProjectCard() {
           <h4>pswrd</h4>
         </div>
 
-        <div className="project-imgs"></div>
+        <div className="project-imgs">
+          <img src={quiz} />
+          <img src={movie} />
+          <img src={pswrd} />
+        </div>
 
         <div className="project-icons">
           <i class="fa-solid fa-code"></i>
