@@ -216,34 +216,21 @@ img {
 
 .projects-container {
   color: rgb(196, 220, 255);
-  margin-top: 0.5em;
+  margin: 0.5em 0;
 }
 
-.projects-container img {
-  width: 100%;
-  border-radius: 15px;
-}
-
-.project-names {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-}
-
-.project-imgs {
-  width: 100%;
-  border: 1px solid red;
-
-  
-}
-
-.project-imgs img {
-  width: 100px;
-}
-
-.project-icons {
+.project-info {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.project-links i {
+  color: rgb(196, 220, 255);
+  margin-right: 0.5em;
+}
+
+.project-skill,
+.project-description {
+  font-size: 0.8em;
 }
