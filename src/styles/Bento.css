@@ -215,8 +215,7 @@ img {
 }
 
 .projects-container {
-  color: rgb(196, 220, 255);
-  margin: 0.5em 0;
+  margin: 1em 0;
 }
 
 .project-info {
@@ -230,7 +229,12 @@ img {
   margin-right: 0.5em;
 }
 
-.project-skill,
+.project-skill {
+  color: #a1a1aa;
+  font-size: 0.75em;
+}
+
 .project-description {
-  font-size: 0.8em;
+  font-size: 0.85em;
+  color: #d4d4d8;
 }
