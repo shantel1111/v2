@@ -215,7 +215,19 @@ img {
 }
 
 .projects-container {
-  margin: 1em 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0.85em 0;
+}
+
+.projects-container img {
+  width: 100px;
+  border-radius: 15px;
+}
+
+.project-text {
+  margin-left: 0.5em;
 }
 
 .project-info {
@@ -232,9 +244,4 @@ img {
 .project-skill {
   color: #a1a1aa;
   font-size: 0.75em;
-}
-
-.project-description {
-  font-size: 0.85em;
-  color: #d4d4d8;
 }
