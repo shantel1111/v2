@@ -6,7 +6,7 @@ export default function Header() {
     <header>
       <div className="resume">
         {/* <i className="fa-solid fa-moon toggle-theme"></i> */}
-        <p>more about me...</p>
+        <p className="">more about me... </p>
         <a href={myresume} aria-label="download resume" download>
           <i className="fa-solid fa-file" nj></i>
         </a>
