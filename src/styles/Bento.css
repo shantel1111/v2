@@ -65,8 +65,12 @@ img {
   padding: 0.5em;
 }
 
+.icon-size {
+  font-size: 2em;
+}
+
 .html-icon {
-  color: rgb(227, 76, 38);
+  color: rgb(227, 76, 39);
 }
 
 .css-icon {
@@ -77,13 +81,22 @@ img {
   color: rgb(220, 201, 73);
 }
 
+.typescript-icon {
+  color: rgb(49, 120, 198);
+}
+
 .react-icon {
-  color: rgb(0, 216, 255);
+  color: rgb(0, 129, 163);
+}
+
+.tailwind-icon {
+  color: rgb(6, 182, 212);
 }
 
 .figma-icon {
   color: rgb(0, 207, 131);
 }
+
 
 .status-container {
   display: flex;
