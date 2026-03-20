@@ -4,7 +4,6 @@ const formatter = new Intl.DateTimeFormat("en-GB", {
   hour: "2-digit",
   minute: "2-digit",
   second: "2-digit",
-  hour12: true,
   timeZone: "Europe/Berlin",
 });
 
@@ -27,12 +26,10 @@ export default function StatusCard() {
             <div className="status-dot">
               <div className="active-pulse"></div>
             </div>
-            <p>currently coding.</p>
+            <p className="hero-top">Just coding</p>
           </div>
-          <span className="current-time">
-            {formatter.format(currentTime)}{" "}
-            <span className="country-time">HAM, DE</span>
-          </span>
+          <span className="current-time">{formatter.format(currentTime)} </span>
+          <span className="country-time">HAM, DE · GMT+2</span>
         </div>
 
         <div className="cta">

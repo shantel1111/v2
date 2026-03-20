@@ -1,4 +1,5 @@
 header {
+  font-family: "Instrument Serif", serif;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -6,7 +7,7 @@ header {
   color: black;
   background-color: rgb(196, 220, 255);
   border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 15px;
+  border-radius: 20px;
   box-shadow: 0 1px 1px rgba(200, 200, 200, 0.1);
 
   padding: 0 1em;
@@ -27,4 +28,9 @@ h1 {
 
 .resume {
   display: flex;
+}
+
+.header-text {
+  font-family: "Geist Mono", monospace;
+  font-size: 10px;
 }
